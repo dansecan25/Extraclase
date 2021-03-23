@@ -46,7 +46,11 @@ public class Main {
         f.setLayout(null);
         f.setVisible(true);
         //par de ejemplos
+        System.out.println("Ejemplo con try, catch, throw,finally y mi propia excepcion");
+        System.out.println("Se le manda una a a comprobarInt que debería tirar una excepcion si el valor no es un entero");
         Comp.comprobarInt("a");
+        System.out.println("Ejemplo con try y finally");
+        System.out.println("Se le manda una division entre 0 a dividir que debería tirar una excepcion por la division");
         DivisionFinEj.dividir(15,0);
 
 
